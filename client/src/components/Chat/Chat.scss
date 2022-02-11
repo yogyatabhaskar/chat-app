@@ -1,0 +1,30 @@
+@use "../../styles/partials/_mixins.scss" as *;
+@use "../../styles/partials/_global.scss" as *;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__view {
+    border: 0.125rem solid black;
+    height: 85vh;
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  &__field {
+    display: flex;
+    height: 5vh;
+  }
+
+  &__text {
+    flex-grow: 3;
+    margin: 0 1rem;
+  }
+
+  &__button {
+    margin: 0 1rem;
+    width: 6rem;
+  }
+}
