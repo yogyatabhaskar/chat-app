@@ -12,12 +12,12 @@ function App() {
   return (
     <Router>
       <Header />
-      <div className="switch__container">
+      {/* <div className="switch__container">
         <Switch>
           <Redirect exact from="/" to="/chat" />
           <Route exact path="/chat" component={Chat} />
         </Switch>
-      </div>
+      </div> */}
     </Router>
   );
 }
